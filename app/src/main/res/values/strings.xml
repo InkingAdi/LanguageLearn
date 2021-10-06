@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">UdacityApp</string>
+    <string name="main_activity_colors">Colors</string>
+    <string name="main_activity_phrases">Phrases</string>
+    <string name="main_activity_family_members">Family Members</string>
+    <string name="main_activity_numbers">Numbers</string>
+</resources>

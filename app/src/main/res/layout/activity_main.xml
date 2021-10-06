@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_main_activity"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="15dp"
+    tools:context=".MainActivity">
+
+    <FrameLayout
+        android:id="@+id/flNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_weight="0"
+        android:background="#ffb74d"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/main_activity_numbers"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/flFamily"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_weight="0"
+        android:background="#ff7043"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/main_activity_family_members"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/flColors"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_weight="0"
+        android:background="#66bb6a"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/main_activity_colors"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/flPhrases"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_weight="0"
+        android:background="#3f51b5"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/main_activity_phrases"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+    </FrameLayout>
+
+</LinearLayout>
